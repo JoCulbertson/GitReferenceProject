@@ -1,0 +1,89 @@
+{
+  "commands":[
+
+	{
+	  "command":"clone",
+	  "example":"git clone ssh://user@domain.com/repo.git",
+	  "explanation":"Clone an existing repository",
+	  "section":"Create"
+	},
+	{
+	  "command":"init",
+	  "example":"git init",
+	  "explanation":"Create a new local repository",
+	  "section":"Create"
+	},
+	{
+	  "command":"status",
+	  "example":"git status",
+	  "explanation":"Changed files in your working directory",
+	  "section":"Changes"
+	},
+	{
+	  "command":"diff",
+	  "example":"git diff",
+	  "explanation":"Changes to tracked files",
+	  "section":"Changes"
+	},
+	{
+	  "command":"add",
+	  "example":"git add .",
+	  "explanation":"Add all current changes to the next commit",
+	  "section":"Changes"
+	},
+	{
+	  "command":"add",
+	  "example":"git add -p <file>",
+	  "explanation":"Add some changes in <file> to the next commit",
+	  "section":"Changes"
+	},
+	{
+	  "command":"commit",
+	  "example":"git commit -a",
+	  "explanation":"Commit all local changes in tracked files",
+	  "section":"Changes"
+	},
+	{
+	  "command":"commit",
+	  "example":"git commit",
+	  "explanation":"Commit previously staged changes",
+	  "section":"Changes"
+	},
+	{
+	  "command":"log",
+	  "example":"git log",
+	  "explanation":"Show all commits, starting with newest",
+	  "section":"Commit History"
+	},
+	{
+	  "command":"log",
+	  "example":"git log -p <file>",
+	  "explanation":"Show changes over time for a specific file",
+	  "section":"Commit History"
+	},
+	{
+	  "command":"blame",
+	  "example":"git blame <file>",
+	  "explanation":"Who changed what and when in <file>",
+	  "section":"Commit History"
+	},
+	{
+	  "command":"branch",
+	  "example":"git branch -av",
+	  "explanation":"List all existing branches",
+	  "section":"Branches & Tags"
+	},
+	{
+	  "command":"checkout",
+	  "example":"git checkout <branch>",
+	  "explanation":"Switch HEAD branch",
+	  "section":"Branches & Tags"
+	},
+	{
+	  "command":"checkout",
+	  "example":"git checkout -b <new branch>",
+	  "explanation":"Create a new branch based on your current HEAD",
+	  "section":"Branches & Tags"
+	}
+   ]
+}
